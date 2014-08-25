@@ -1,0 +1,12 @@
+# Site settings
+title: Test 8 site!
+email: jrivenbark@northstatesoftware.com
+description: “A place to come find the latest news on test 8 and all its cool stuff.”
+baseurl: ""
+url: "http://www.northstatesoftware.com"
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+permalink: pretty
