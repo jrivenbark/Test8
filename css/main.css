@@ -44,13 +44,6 @@ a:visited { color: #205caa; }
   border-top: 5px solid #333;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
-}
-
-.site-old {
-  border-top: 5px solid #333;
-  border-bottom: 1px solid #e8e8e8;
-  min-height: 56px;
   background-color: white;
 }
 
@@ -142,15 +135,11 @@ a:visited { color: #205caa; }
 /* Page Content styles */
 /* ----------------------------------------------------------*/
 
-.page-content-old {
+.page-content {
   padding: 30px 0;
   background-color: #fff;
 }
 
-.page-content {
-  padding: 30px 0;
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
-}
 
 /* Home styles */
 /* ----------------------------------------------------------*/

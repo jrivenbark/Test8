@@ -1,8 +1,0 @@
----
-layout: post
-title:  “Oooops”
-date:   1976-02-09 15:49:34
-categories: jekyll update
----
-
-Birthday party ... yeah it's my birth day.  Playing in the tree house.  Here comes someone with a toy hatchet.  Better back up ... oh oh ran out of tree house! 
