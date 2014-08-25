@@ -38,6 +38,10 @@
         
           
         
+          <a class="page-link" href="/won/">OneWon</a>
+        
+          <a class="page-link" href="/Too/">TwoTooTo</a>
+        
       </div>
     </nav>
 
@@ -85,6 +89,16 @@ Jekyll makes it easy to create site-wide headers and footers without having to c
         <a class="post-link" href="/jekyll/update/1978/07/01/Moving-Day/">“Moving Day!”</a>
   <article class="post-content">
   <p>Hey we are going to the beach!  Woo hoo.  Awsome.  To live?  Wooooo.  I wan to be a beach bum!</p>
+
+<h1 id="header">Header</h1>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">show</span>
+  <span class="vi">@widget</span> <span class="o">=</span> <span class="no">Widget</span><span class="p">(</span><span class="n">params</span><span class="o">[</span><span class="ss">:id</span><span class="o">]</span><span class="p">)</span>
+  <span class="n">respond_to</span> <span class="k">do</span> <span class="o">|</span><span class="nb">format</span><span class="o">|</span>
+    <span class="nb">format</span><span class="o">.</span><span class="n">html</span> <span class="c1"># show.html.erb</span>
+    <span class="nb">format</span><span class="o">.</span><span class="n">json</span> <span class="p">{</span> <span class="n">render</span> <span class="ss">json</span><span class="p">:</span> <span class="vi">@widget</span> <span class="p">}</span>
+  <span class="k">end</span>
+<span class="k">end</span></code></pre></div>
 
   </article>
 

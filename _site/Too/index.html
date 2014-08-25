@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>About</title>
+    <title>TwoTooTo</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="“A place to come find the latest news on test 8 and all its cool stuff.”">
-    <link rel="canonical" href="http://www.northstatesoftware.com/about/">
+    <link rel="canonical" href="http://www.northstatesoftware.com/Too/">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
@@ -56,16 +56,60 @@
 
 bobob
   <header class="post-header">
-    <h1>About</h1>
+    <h1>TwoTooTo</h1>
   </header>
 
   <article class="post-content">
-  <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="http://jekyllrb.com/">jekyllrb.com</a></p>
+  <h1 id="northstateframework-csharp">NorthStateFramework-csharp</h1>
 
-<p>You can find the source code for the Jekyll new theme at: <a href="https://github.com/jglovier/jekyll-new">github.com/jglovier/jekyll-new</a></p>
+<p>The North State Framework (NSF) is an object-oriented framework for implementing UML state machines.  For more information, see the pages <a href="http://northstatesoftware.github.io/NorthStateFramework-csharp/index.html">here.</a></p>
 
-<p>You can find the source code for Jekyll at <a href="https://github.com/jekyll/jekyll">github.com/jekyll/jekyll</a>
-/Users/thug/Documents/NorthState/NS/Test8GitHub/Test8/james-blog/index.html</p>
+<ol>
+  <li><a href="#compilation">Compilation</a></li>
+  <li><a href="#using-nsf">Using NSF</a></li>
+  <li><a href="#documentation">Documentation</a></li>
+  <li><a href="#contributing">Contributing</a> </li>
+</ol>
+
+<h1 id="compilation">Compilation</h1>
+
+<h2 id="a-build-requirements">a. Build Requirements</h2>
+<ul>
+  <li>The NSF in C# requires Microsoft .NET 2.0 for compilation.  </li>
+  <li>The solution provided is compatible with Visual Studio 9.</li>
+  <li><a href="http://www.doxygen.org/">Doxygen</a> is required to build the documentation. (Optional)</li>
+</ul>
+
+<h2 id="b-building-the-software">b. Building the Software</h2>
+<ul>
+  <li>Open the file NorthStateFrameworkInC#Development.sln within Visual Studio.</li>
+  <li>Choose either Debug or Release build configurations.</li>
+  <li>Build the code from the IDE</li>
+  <li>Output will be placed in the Build directory
+    <ul>
+      <li>Executables will be created for the test project and each of the example projects</li>
+      <li>NorthStateFramework.dll will be created for use in other projects.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="c-building-the-documentation">c. Building the Documentation</h2>
+<ul>
+  <li>If you wish to build the documentation you must first install Doxygen.</li>
+  <li>Open the solution</li>
+  <li>Right click on the Documentation project and choose build.</li>
+  <li>Index.html and other html pages will be generated to the \Documentation\Doxygen\HTML directory.</li>
+</ul>
+
+<h1 id="using-nsf">Using NSF</h1>
+<p>NSF is a framework contained in a dll for inclusion in projects that require state machine behavior.  To start using  NSF, reference the NorthStateFramework.dll within your project.  See the included examples.  For an in-depth tutorial on using NSF, see the WorkingWithNorthStateFramework document contained in the solution.</p>
+
+<h1 id="documentation">Documentation</h1>
+<p>If you would rather not generate the documentation, you can use the online documentation located at http://northstatesoftware.github.io/NorthStateFramework-csharp/Documentation.</p>
+
+<h1 id="contributing">Contributing</h1>
+<p>Before submitting changes to NorthStateFramework-csharp, please review the contribution guidelines at https://github.com/NorthStateSoftware/NorthStateFramework-csharp/wiki/Contributor-FAQ.</p>
+
 
   </article>
 
