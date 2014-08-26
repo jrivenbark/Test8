@@ -1,9 +1,9 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Test 8 site!
+email: jrivenbark@northstatesoftware.com
+description: “A place to come find the latest news on test 8 and all its cool stuff.”
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://www.northstatesoftware.com"
 twitter_username: jekyllrb
 github_username:  jekyll
 
