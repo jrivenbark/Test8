@@ -389,7 +389,6 @@ footer a:hover {
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
-    width: 200px;
 	border-top: solid 1px #cbcbcb;
 	border-left: solid 1px #b7b7b7;
 	border-right: solid 1px #b7b7b7;
@@ -423,7 +422,6 @@ footer a:hover {
   .site-nav:hover .trigger { display: block; }
 
   .site-nav .page-link {
-    display: block;
     text-align: center;
     line-height: 1.25;
     padding: 5px 10px;
