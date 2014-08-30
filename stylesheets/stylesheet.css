@@ -384,9 +384,9 @@ footer a:hover {
 
 
   .site-nav {
-/*    position: fixed;
+  	text-align: right;
     z-index: 10;
-    top: 30px; right: 30px;*/
+    top: 30px; right: 30px;
     background-color: #fdfdfd;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -402,16 +402,6 @@ footer a:hover {
 	background: -o-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* IE10+ */
 	background: linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* W3C */
-  }
-
-  .site-nav .menu-icon {
-    display: block;
-    font-size: 24px;
-    color: #505050;
-    float: right;
-    width: 36px;
-    text-align: center;
-    line-height: 36px;
   }
 
   .page-link {
