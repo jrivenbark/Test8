@@ -1,20 +1,19 @@
 
 
 <header class="site-header">
-    <a class="text-intro" href="{{ site.baseurl }}/">{{ site.title }}</a>
-    </br>
-    	{{site.description}}
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
-        An object-oriented framework for implementing UML state machines.
-
+	<div>
+		{{site.description}}
+	</div>
+	<br>
     <nav class="site-nav">
-      
       <div>
-        <a class="page-link" lass="page-link" href="{{ site.baseurl }}/">{{ site.title }}</a>
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
         {% endfor %}
       </div>
     </nav>
-
+	<br>
+    {% include download.html %}
 </header>

@@ -2,8 +2,6 @@
 layout: default
 ---
 
-  {% include download.html %}
-
 # Heading 1
 
 Test Text
