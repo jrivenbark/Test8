@@ -215,7 +215,10 @@ strong {
 }
 
 em {
+  color: #d5000d;
+  font-size: 18px;
   font-weight: bold;
+  margin-bottom: 8px;
 }
 
 table {
