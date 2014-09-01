@@ -47,5 +47,5 @@ your work.
 from North State Software, which waives your obligation to publish your source 
 code.
 
-[Click here for commercial licensing options.>>](uml-state-machine-code-generation-framework-license.html);
+[Click here for commercial licensing options.>>](uml-state-machine-code-generation-framework-license.html)
 

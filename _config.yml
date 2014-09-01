@@ -1,12 +1,14 @@
 # Site settings
-title: Test 8 site!
-email: jrivenbark@northstatesoftware.com
-description: A place to come find the latest news on test 8 and all its cool stuff.
-short_name: T8!
+title: NorthStateFramework-csharp
+email: admin@northstatesoftware.com
+description: An object-oriented framework for implementing UML state machines.
+short_name: NSF C#
+copywrite_notice: Copyright 2014. All rights reserved.
+owner: North State Software, LLC
 baseurl: "/Test8"
 url: "http://www.northstatesoftware.com"
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  NorthStateSoftware
 
 # Build settings
 markdown: kramdown
