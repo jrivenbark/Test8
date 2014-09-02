@@ -9,6 +9,9 @@ baseurl: "/Test8"
 url: "http://www.northstatesoftware.com"
 twitter_username: jekyllrb
 github_username:  NorthStateSoftware
+zipball: "https://github.com/jrivenbark/Test8/zipball/master"
+tarball: "https://github.com/jrivenbark/Test8/tarball/master"
+repo: "https://github.com/jrivenbark/Test8"
 
 # Build settings
 markdown: kramdown

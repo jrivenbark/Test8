@@ -1,5 +1,11 @@
 <section id="downloads" class="clearfix">
-	<a href="https://github.com/jrivenbark/Test8/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-	<a href="https://github.com/jrivenbark/Test8/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-	<a href="https://github.com/jrivenbark/Test8" id="view-on-github" class="button"><span>View on GitHub</span></a>
+	{% if site.zipball %}
+		<a href={{site.zipball}} id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+	{% endif %}
+	{% if site.tarball %}
+		<a href={{site.zipball}} id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+	{% endif %}
+	{% if site.repo %}
+		<a href={{site.repo}} id="view-on-github" class="button"><span>View on GitHub</span></a>
+	{% endif %}
 </section>
