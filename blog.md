@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Blog
-permalink: /won/
+permalink: /Blog/
+comments: true
 ---
 
 <ul class="posts">

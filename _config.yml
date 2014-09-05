@@ -7,7 +7,7 @@ copywrite_notice: Copyright 2014. All rights reserved.
 owner: North State Software, LLC
 baseurl: "/Test8"
 url: "http://www.northstatesoftware.com"
-twitter_username: jekyllrb
+twitter_username:
 github_username:  NorthStateSoftware
 zipball: "https://github.com/jrivenbark/Test8/zipball/master"
 tarball: "https://github.com/jrivenbark/Test8/tarball/master"
