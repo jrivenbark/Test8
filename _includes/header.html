@@ -2,8 +2,9 @@
 
 <header class="site-header">
 
-      <ul class "header-nav">
-        <li class="header-nav-item">
+<nav>
+      <ul>
+<!--        <li class="header-nav-item">
 			<a class="header-nav-link" href="{{ site.baseurl }}/">{{ site.short_name }}</a>
         </li>
         <li class="header-nav-item">
@@ -16,23 +17,8 @@
 				<a class="header-nav-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
 	          </li>
 			{% endif %}
-		{% endfor %}
+		{% endfor %}-->
       </ul>
-        
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-	<div>
-		{{site.description}}
-	</div>
-	<br>
-    <nav class="site-nav">
-      <div>
-		<a class="page-link" href="{{site.baseurl }}/Documentation/index.html">Documentation</a>
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
-      </div>
-    </nav>
-	<br>
-    {% include download.html %}
+     </nav>
+     <br>   
 </header>
