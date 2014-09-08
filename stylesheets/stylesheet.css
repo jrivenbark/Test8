@@ -421,6 +421,9 @@ footer a:hover {
  
  .site-header {
 	  background-color: #e7e7e7;
+    border-width: 3px;
+    border-bottom: solid;
+	  border-color: gray;
 }
 
 .site-title {
