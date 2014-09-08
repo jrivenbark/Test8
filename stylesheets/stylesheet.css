@@ -517,3 +517,35 @@ font-size: 0.8em;
   width: auto;
   float: none;
 }
+
+.header-nav-item{
+	float:left}
+
+.header-nav-item.active 
+.dropdown-menu-content{
+	display:block
+}
+
+.header-nav-item.active .tooltipped:before,
+.header-nav-item.active .tooltipped:after{
+display:none}
+
+.header-nav-link{
+	display:block;
+	padding:4px 8px;
+	font-size:13px;
+	font-weight:bold;
+	line-height:20px;
+	color:#333333
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus{
+	color:#4183c4;
+	text-decoration:none
+}
+
+.header-nav-link:hover .dropdown-caret,
+.header-nav-link:focus .dropdown-caret{
+	border-top-color:#4183c4
+}
